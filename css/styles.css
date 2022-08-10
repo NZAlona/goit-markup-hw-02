@@ -94,14 +94,18 @@ body {
   letter-spacing: 0.06em;
   border-color: transparent;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px;
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--accent-color);
+  color: rgba(0, 0, 0, 0.15);
 }
 
 /* Section Benefits*/
+.title {
+  visibility: hidden;
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -130,17 +134,22 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .team .position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 .team {
   background-color: var(--photo-background-color);
 }
 
+.staff.list li {
+  background-color: var(--primary-background-color);
+}
 /* Footer */
 .footer {
   background-color: var(--secondary-background-color);
@@ -157,13 +166,8 @@ body {
   text-decoration: none;
 }
 
-.footer-address .link:hover,
-.footer-address .link:focus {
-  color: var(--accent-color);
-}
-
 .footer-address .list {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
