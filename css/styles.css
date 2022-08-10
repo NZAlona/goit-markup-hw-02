@@ -1,0 +1,213 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --photo-background-color: #f5f4fa;
+  --logo-text-color: #000000;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Site navigation */
+.logo {
+  color: var(--logo-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-text {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Studio page */
+
+/* Hero */
+.hero-title {
+  color: var(--primary-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-button {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+}
+
+/* Section Benefits*/
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.benefits-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Section Team */
+.staff-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team .position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team {
+  background-color: var(--photo-background-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-footer {
+  color: var(--primary-background-color);
+}
+
+.footer-address .link {
+  color: var(--primary-background-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-address .list {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.footer-address .list:hover,
+.footer-address .list:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio page */
+.button.list {
+  color: var(--title-text-color);
+  background-color: var(--photo-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button.list:hover,
+.button.list:focus {
+  color: var(--primary-background-color);
+  background-color: #2196f3;
+}
+
+.cards a {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.cars-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cards-name {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
