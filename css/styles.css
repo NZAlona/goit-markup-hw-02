@@ -6,6 +6,9 @@
   --secondary-background-color: #2f303a;
   --photo-background-color: #f5f4fa;
   --logo-text-color: #000000;
+  --hero-btn-background: #188ce8;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --hero-btn-accent: rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -84,7 +87,7 @@ body {
 }
 .hero-button {
   color: var(--primary-background-color);
-  background-color: var(--accent-color);
+  background-color: var(--hero-btn-background);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -99,12 +102,21 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: rgba(0, 0, 0, 0.15);
+  color: var(--hero-btn-accent);
 }
 
 /* Section Benefits*/
 .title {
-  visibility: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: 50%;
+  margin: -1px;
 }
 .section-title {
   color: var(--title-text-color);
@@ -167,7 +179,7 @@ body {
 }
 
 .footer-address .list {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -195,7 +207,7 @@ body {
 .button.list:hover,
 .button.list:focus {
   color: var(--primary-background-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .cards a {
